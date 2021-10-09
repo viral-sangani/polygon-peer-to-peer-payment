@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
 import Web3 from "web3";
+import Navbar from "../components/Navbar";
 import { useData } from "../contexts/DataContext";
 
 export default function Home() {
@@ -12,40 +13,12 @@ export default function Home() {
   const [button, setButton] = useState("Send");
 
   return (
-    <div
-      className="flex flex-col min-h-screen justify-start"
-      style={{ backgroundColor: "#29222A" }}
-    >
+    <div className="flex flex-col min-h-screen justify-start bg-gradient-to-b from-gray-800  to-gray-500">
       <Head>
         <title>Peer-to-Peer Payment dApp</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="flex md:flex-row flex-col px-3 lg:px-10 justify-between items-center pt-5 space-y-2">
-        <div className="flex flex-row items-center">
-          <img src="./polygon-matic-logo.png" className="w-8 h-8 mr-3" />
-          <span className="text-2xl font-bold text-white">Polygon Network</span>
-        </div>
-        {account ? (
-          <div className="flex flex-row space-x-3 items-center text-white text-lg">
-            <span>{account}</span>
-            <div className="px-2 py-1 border-2 border-green-500 rounded-xl cursor-pointer text-center">
-              <span className="text-xl font-bold text-green-500">
-                Connected
-              </span>
-            </div>
-          </div>
-        ) : (
-          <div
-            className="px-2 py-1 border-2 border-red-500 rounded-xl cursor-pointer text-center"
-            onClick={() => {
-              loadWallet();
-              setError("");
-            }}
-          >
-            <span className="text-xl font-bold text-red-500">Connect</span>
-          </div>
-        )}
-      </header>
+      <Navbar />
 
       <main className="mt-36 flex justify-center items-start">
         <div className="w-full md:w-2/6 bg-gray-800 rounded-3xl p-4 mx-3">
