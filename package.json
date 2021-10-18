@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.1",
     "@maticnetwork/maticjs": "^2.0.46",
     "@maticnetwork/meta": "^2.4.19",
     "@openzeppelin/contracts": "^4.3.2",

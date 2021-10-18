@@ -11,12 +11,12 @@ module.exports = {
     },
     matic: {
       provider: () =>
-        new HDWalletProvider(mnemonic, `https://rpc-mumbai.maticvigil.com/`),
-      network_id: 80001,
+        new HDWalletProvider(mnemonic, `https://polygon-rpc.com/`),
+      network_id: 137,
       confirmations: 2,
       timeoutBlocks: 200,
       skipDryRun: true,
-      chainId: 80001,
+      chainId: 137,
     },
   },
   contracts_directory: "./contracts",

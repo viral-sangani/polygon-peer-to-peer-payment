@@ -10119,10 +10119,61 @@
   },
   "networks": {
     "137": {
-      "events": {},
+      "events": {
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "spender",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approval",
+          "type": "event"
+        },
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        }
+      },
       "links": {},
-      "address": "0xA82EAf2c0e8100ECaB913A601f652F7C4151c549",
-      "transactionHash": "0x8081e0b4793f72a130e21eb8fe95cb3e5c4456c49ac927c9eec2fdb4b94af32d"
+      "address": "0xFfddb452F0665731f1434EEE724c76247df414Dc",
+      "transactionHash": "0xfef6559c836fc281d1df339fbcd68ec8089c3655638ff3b50adfae32649d8d15"
     },
     "80001": {
       "events": {},
@@ -10132,7 +10183,7 @@
     }
   },
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-10-09T06:40:19.062Z",
+  "updatedAt": "2021-10-17T12:49:43.719Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
