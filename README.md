@@ -1,29 +1,61 @@
-# Next.js + Tailwind CSS Example
+<p align="center">
+  <a href="https://github.com/viral-sangani/polygon-peer-to-peer-payment/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/viral-sangani/coding-challenge-2021.svg?style=for-the-badge"/>
+  </a>
+  <a href="https://github.com/viral-sangani/polygon-peer-to-peer-payment/network/members">
+    <img alt="Forks" src="https://img.shields.io/github/forks/viral-sangani/coding-challenge-2021.svg?style=for-the-badge"/>
+  </a>
+  <a href="https://github.co/viral-sangani/coding-challenge-2021r/graphs/contributors">
+    <img alt="Contributors" src="https://img.shields.io/github/contributors/viral-sangani/coding-challenge-2021.svg?style=for-the-badge"/>
+  </a>
+  <a href="https://github.com/viral-sangani/polygon-peer-to-peer-payment/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/viral-sangani/coding-challenge-2021.svg?style=for-the-badge"/>
+  </a>
+  <a href="https://github.com/viral-sangani/coding-challenge-2021">
+    <img alt="MIT License" src="https://img.shields.io/github/license/manaspratap/ARVideoBrowser.svg?style=for-the-badge"/>
+  </a>
+</p>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<p align="center">
+  <h1 align="center">Peer-to-Peer payment dApp</h1>
+</p>
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+## About The Project
 
-## Preview
+Peer-to-Peer payment dApp which can transfer ERC20 tokens.
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## Tech stack and libraries
+ - Solidity
+ - Polygon Blockchain
+ - Nextjs
+ - web3.js
+ - TailwindCSS
+ - Metamask
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Demo Video
 
-## Deploy your own
+![DEMO](https://github.com/figment-networks/learn-tutorials/raw/master/assets/payment-dApp-demo.gif)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## 🗺 Roadmap
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+See the [open issues](https://github.com/viral-sangani/polygon-peer-to-peer-payment/issues) for a list of proposed features (and known issues).
 
-## How to use
+## 🤝 Contributing
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+<br />
+
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/viral-sangani/polygon-peer-to-peer-payment/)
