@@ -5,13 +5,13 @@
   <a href="https://github.com/viral-sangani/polygon-peer-to-peer-payment/network/members">
     <img alt="Forks" src="https://img.shields.io/github/forks/viral-sangani/coding-challenge-2021.svg?style=for-the-badge"/>
   </a>
-  <a href="https://github.co/viral-sangani/coding-challenge-2021r/graphs/contributors">
+  <a href="https://github.com/viral-sangani/polygon-peer-to-peer-payment//graphs/contributors">
     <img alt="Contributors" src="https://img.shields.io/github/contributors/viral-sangani/coding-challenge-2021.svg?style=for-the-badge"/>
   </a>
   <a href="https://github.com/viral-sangani/polygon-peer-to-peer-payment/issues">
     <img alt="Issues" src="https://img.shields.io/github/issues/viral-sangani/coding-challenge-2021.svg?style=for-the-badge"/>
   </a>
-  <a href="https://github.com/viral-sangani/coding-challenge-2021">
+  <a href="https://github.com/viral-sangani/polygon-peer-to-peer-payment/">
     <img alt="MIT License" src="https://img.shields.io/github/license/manaspratap/ARVideoBrowser.svg?style=for-the-badge"/>
   </a>
 </p>
